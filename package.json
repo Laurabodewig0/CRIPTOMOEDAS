@@ -1,0 +1,25 @@
+{
+  "name": "criptomoedas",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "type": "module", 
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/LauraBodewig0/CRIPTOMOEDAS.git"
+  },
+  "author": "Alexandre Ferreira Ribas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LauraBodewig0/CRIPTOMOEDAS/issues"
+  },
+  "homepage": "https://github.com/LauraBodewig0/CRIPTOMOEDAS#readme",
+  "description": "type adicionado para suportar import/export (obrigatório se for usar import from e export default), start adicionado para rodar o servidor e  dependencies adicionado para instalar as dependências com npm install",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+}
